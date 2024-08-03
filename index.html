@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-project</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="property-images">
+        <div class="image-container">
+            <input type="file" name="property_image" accept="image/*">
+            <select name="primary_image">
+                <option value="0" selected>Primary Image</option>
+                <option value="1">Secondary Image</option>
+            </select>
+            <a href="#" class="remove-image">Remove</a>
+        </div>
+    </div>
+    <a href="#" class="add-image">Add Another</a>
+    <script src="index.js"></script>
+</body>
+</html>
