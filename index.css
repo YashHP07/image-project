@@ -1,0 +1,87 @@
+/* Resetting default margin and padding for a consistent look */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.property-images {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.image-container input[type="file"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.image-container .preview {
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.image-container select {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.add-image, .remove-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.add-image img, .remove-image img {
+    display: block;
+    height: 35px;
+    width: auto;
+}
+.add-image{
+    margin-bottom: 60px;
+}
+.add-image button{
+    height: 50px;
+    width: 50px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(177, 208, 139);
+    position: fixed;
+    color: black;
+}
+
+.remove-image img {
+    height: 20px;
+}
+
+.preview{
+    height: 100px;
+    width: 100px;
+}

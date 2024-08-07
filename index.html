@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image-project</title>
+    <title>Image Project</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        a{
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="property-images">
+        <a href="#" class="add-image">
+             <button>Add</button>
+        </a>
         <div class="image-container">
             <input type="file" name="property_image" accept="image/*">
+            <img class="preview" src="https://freeiconshop.com/wp-content/uploads/edd/image-outline-filled.png" alt="Image preview">
+            
             <select name="primary_image">
                 <option value="0" selected>Primary Image</option>
                 <option value="1">Secondary Image</option>
             </select>
-            <a href="#" class="remove-image">Remove</a>
+            <a href="#" class="remove-image">
+                <img src="https://img.icons8.com/?size=30&id=71200&format=png" alt="image-logo" height="20px">
+            </a>
         </div>
+           
+           
     </div>
-    <a href="#" class="add-image">Add Another</a>
+    
+
     <script src="index.js"></script>
 </body>
 </html>
